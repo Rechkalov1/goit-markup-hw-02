@@ -1,44 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeWork#2</title>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
     <header>
-        <nav>
-          <a href="WebStudio">WebStudio</a>
-          <ul>
-            <li><a href="./index.html"></a> Студия</li>
-            <li>
-              <a href="Портфолио"></a>
-              Портфолио
-            </li>
-            <li>
-              <a href="Контакты"></a>
-              Контакты
-            </li>
-          </ul>
-        </nav>
+      <nav>
+        <a class="link" href="WebStudio">WebStudio</a>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 0961111111</a></li>
+          <li><a class="link" href="./index.html"> Студия</a></li>
+          <li>
+            <a class="link" href="Портфолио">Портфолио</a>
+            
+          </li>
+          <li>
+            <a class="link" href="Контакты">Контакты</a>
+           
+          </li>
         </ul>
-      </header>
-      <main>
-          <section>
-              <ul>
-                  <li class="button" type="button"><a href="Все">Все</a></li>
-                  <li><a href="Веб-сайты">Веб-сайты</a></li>
-                  <li><a href="Приложения">Приложения</a></li>
-                  <li><a href="Дизайн">Дизайн</a></li>
-                  <li><a href="Маркетинг">Маркетинг</a></li>
-                 
-              </ul>
-          </section>
-      </main>
-</body>
+      </nav>
+      <ul>
+        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link" href="tel:+380961111111">+38 0961111111</a></li>
+      </ul>
+    </header>
+    <main>
+      <section class="services">
+        <ul>
+          <li> <button type="button" class="services-txt">Все</button> </li>
+         
+          <li><button type="button"  class="services-txt"> Веб-Сайты</button></li>
+          <li><button type="button"  class="services-txt">Приложения</button></li>
+          <li><button type="button"  class="services-txt">Дизайн</button></li>
+          <li><button type="button"  class="services-txt">Маркетинг</button></li>
+          
+        
+        </ul>
+      </section>
+      <section>
+        <ul class="txt-info">
+          <li><img src="./imagesporfolio/img.jpg" width="370" height="294" alt="технокряк" /></li>
+        </ul>
+        <h2 class="info">Технокряк</h2>
+        <p class="txt-sentence">Веб-сайт</ptxt>
+        <ul>
+          <li><img src="./imagesporfolio/basket.jpg" width="370" height="294" alt="Постер" /></li>
+        </ul>
+        <h2 class="info">Постер New Orlean vs Golden Star</h2>
+        <p class="txt-sentence">Дизайн</p>
+        <ul>
+          <li>
+            <img src="./imagesporfolio/seafood.jpg" width="370" height="294" alt="Ресторан Seafood" />
+          </li>
+        </ul>
+        <h2 class="info">Ресторан Seafood</h2>
+        <p class="txt-sentence">Приложение</p>
+        <ul>
+          <li>
+            <img src="./imagesporfolio/headphones.jpg" alt="Проект Prime" />
+          </li>
+        </ul>
+        <h2 class="info">Проект Prime</h2>
+        <p class="txt-sentence">Маркетинг</p>
+        <ul>
+          <li><img src="./imagesporfolio/img4.jpg"  width="370" height="294"alt="Проект Boxes" /></li>
+        </ul>
+        <h2 class="info">Проект Boxes</h2>
+        <p class="txt-sentence"> Приложение</p>
+        <ul>
+          <li>
+            <img
+              src="./imagesporfolio/pk.jpg" width="370" height="294"
+              alt="Inspiration has no Borders"
+            />
+          </li>
+        </ul>
+        <h2 class="info">Inspiration has no Borders</h2>
+        <p class="txt-sentence">Веб-сайт</p>
+        <ul>
+          <li>
+            <img
+              src="./imagesporfolio/img6.jpg" width="370" height="294"
+              alt="Издание Limited Edition"
+            />
+          </li>
+        </ul>
+        <h2 class="info">Издание Limited Edition</h2>
+        <p class="txt-sentence">Дизайн</p>
+        <ul>
+          <li><img src="./imagesporfolio/img7.jpg" width="370" height="294" alt="Проект LAB" /></li>
+        </ul>
+        <h2 class="info">Проект LAB</h2>
+        <p class="txt-sentence">Маркетинг</p>
+        <ul>
+          <li><img src="./imagesporfolio/pk2.jpg" width="370" height="294" alt="Growing Business" /></li>
+        </ul>
+        <h2 class="info">Growing Business</h2>
+        <p class="txt-sentence">Приложение</p>
+      </section>
+    </main>
+    <footer class="background">
+      <a class="link" href="WebStudio">WebStudio</a>
+      <address>
+        <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
+        <ul>
+          <li><a class="link" href="mailto:info@example.com"> info@example.com</a></li>
+          <li><a class="link" href="tel:+380991111111"> +38 099 111 11 11</a></li>
+        </ul>
+      </address>
+    </footer>
+  </body>
 </html>
