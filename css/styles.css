@@ -220,24 +220,25 @@ link:active {
 
   color: #2196f3;
 }
-.web{font-family: Raleway;
- 
+.web {
+  font-family: Raleway;
+
   font-weight: 700;
   font-size: 26px;
   line-height: 0.8;
- 
-  
+
   letter-spacing: 0.03em;
-  
-  color: #FFFFFF;}
-  .web1{font-family: Raleway;
-  
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 0.8;
-   
-    
-    letter-spacing: 0.03em;
-    
-    color: #000000;
-    }
+
+  color: #ffffff;
+}
+.web1 {
+  font-family: Raleway;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.8;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
