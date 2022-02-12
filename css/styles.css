@@ -90,7 +90,8 @@ ul {
   background: #2196f3;
   color: #ffffff;
 }
-.btn:hover {
+.btn:hover { background: #2196f3;
+
 }
 .services-txt:hover {
   background: #2196f3;
