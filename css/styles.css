@@ -122,7 +122,7 @@ ul {
   background-color: var(--color-blue);
   color: var(--color-white);
 }
-.services {
+.services-txt {
   cursor: pointer;
 }
 .info {
