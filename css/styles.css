@@ -122,10 +122,7 @@ ul {
   background-color: var(--color-blue);
   color: var(--color-white);
 }
-.services-txt {
-  cursor: pointer;
-}
-.info {
+ {
   font-family: Roboto;
   font-style: 400;
   font-weight: var(--second-font-weight);
