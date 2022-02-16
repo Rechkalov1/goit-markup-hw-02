@@ -4,6 +4,7 @@ font-family: 'Roboto', sans-serif;
    #757575   */
 :root {
   --font-style: "Roboto", sans-serif;
+  --second-style: "Raleway", sans-serif;
   --second-font-weight: 700;
   --font-weight: 400;
   --main-color: #757575;
@@ -26,7 +27,7 @@ ul {
   text-align: center;
 }
 .caption {
-  font-family: Roboto;
+  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -36,7 +37,7 @@ ul {
   color: var(--color-white);
 }
 .all-txt {
-  font-family: var(--font-style);
+  
   font-weight: var(--font-weight);
   font-size: 14px;
   line-height: 1.7;
@@ -46,7 +47,7 @@ ul {
   color: var(--main-color);
 }
 .item {
-  font-family: var(--font-style);
+  
   text-transform:uppercase;
   font-weight: var(--second-font-weight);
   font-size: 14px;
@@ -56,7 +57,7 @@ ul {
   color: var(--second-color);
 }
 .desc {
-  font-family: var(--font-style);
+  
   font-weight: var(--second-font-weight);
   font-size: 36px;
   line-height: 1.2;
@@ -70,7 +71,7 @@ ul {
 }
 
 .name {
-  font-family: var(--font-style);
+  
 
   font-weight: 500;
   font-size: 16px;
@@ -84,7 +85,7 @@ ul {
   text-align: center;
 }
 .btn {
-  font-family: Roboto;
+  
   font-weight: 700;
   font-size: 16px;
   line-height:1.6;
@@ -93,6 +94,7 @@ ul {
   letter-spacing: 0.06em;
   background:var(--color-blue);
   color: var(--color-white);
+  border-radius: 4px;
 }
 .btn:hover { background:#1c84d8;
 
@@ -109,7 +111,6 @@ ul {
 }
 .services-txt {
   font-family: var(--font-style);
-  font-style: 400;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -122,8 +123,9 @@ ul {
   background-color: var(--color-blue);
   color: var(--color-white);
 }
- {
-  font-family: Roboto;
+
+.info {
+  
   font-style: 400;
   font-weight: var(--second-font-weight);
   font-size: 18px;
@@ -135,7 +137,7 @@ ul {
 }
 
 .txt-sentence {
-  font-family: var(--font-style);
+  
 
   font-weight: var(--font-weight);
   font-size: 16px;
@@ -147,7 +149,7 @@ ul {
 }
 a{ text-decoration:none;}
 .link {
-  font-family: var(--font-style);
+  
   text-decoration:none;
   font-weight: 500;
   font-size: 14px;
@@ -169,8 +171,8 @@ link:active {
   color:var(--color-blue);
 }
 .contact-info {
-  font-family: Roboto;
-  font-weight: 400;
+  font-family: var(--font-style);
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
@@ -186,7 +188,7 @@ link:active {
 
 
 .location {
-  font-family: var(--font-style);
+
 
   font-weight: var(--font-weight);
   font-size: 14px;
@@ -203,7 +205,7 @@ link:active {
   background: #2f303a;
 }
 .website {
-  font-family: Raleway;
+  font-family:var(--second-style);
 
   font-weight: 700;
   font-size: 26px;
@@ -214,7 +216,7 @@ link:active {
   color: var(--color-blue);
 }
 .web {
-  font-family: Raleway;
+  font-family:var(--second-style);
   text-decoration:none;
   font-weight: 700;
   font-size: 26px;
@@ -225,7 +227,7 @@ link:active {
   color:var(--color-white);
 }
 .web1 {
-  font-family: Raleway;
+  font-family:var(--second-style);
   text-decoration:none;
   font-weight: 700;
   font-size: 26px;
@@ -236,7 +238,7 @@ link:active {
   color: #000000;
 }
 .contact-down-info {
-  font-family: Roboto;
+ 
   font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
