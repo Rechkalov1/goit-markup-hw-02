@@ -238,7 +238,7 @@ link:active {
   color: #000000;
 }
 .contact-down-info {
- 
+ font-family: var(--font-style);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
